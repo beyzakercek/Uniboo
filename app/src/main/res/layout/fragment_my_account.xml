@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyAccountFragment"
+    android:background="#FBF7F7"
+    android:id="@+id/myAccountID"
+
+    >
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="425dp"
+        android:layout_height="855dp"
+        android:src="@drawable/lib" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="310dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:background="#B57F61">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="106dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="140dp"
+            android:text="@string/userName"
+            android:textColor="#973314"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.078"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:text="@string/namesurname"
+            android:textColor="#973314"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.082"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"></TextView>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="144dp"
+            android:text="@string/eMail"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#973314"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.06"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"></TextView>
+
+        <TextView
+            android:id="@+id/accountUserNameID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="148dp"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toTopOf="@+id/accountEmailID"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.583"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="MissingConstraints">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/accountNameSurnameID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toTopOf="@+id/accountUserNameID"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.583"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.451"
+            tools:ignore="MissingConstraints">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/accountEmailID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.583"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.617"
+            tools:ignore="MissingConstraints">
+
+
+        </TextView>
+
+        <Button
+            android:id="@+id/editID"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#683322"
+            android:text="@string/updateButton"
+            android:textColor="#B57F61"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.902"
+            tools:ignore="MissingConstraints">
+
+        </Button>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/myAccount"
+        android:textColor="#683322"
+        android:textSize="50sp"
+        android:textStyle="bold|italic"></TextView>
+
+
+</FrameLayout>

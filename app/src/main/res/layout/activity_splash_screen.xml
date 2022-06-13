@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#683322"
+    tools:context=".SplashScreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/appLogoID"
+            android:layout_width="300dp"
+            android:layout_height="208dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="450dp"
+            android:visibility="invisible"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/appNameID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="125dp"
+            android:layout_marginBottom="120dp"
+            android:text="Uniboo"
+            android:visibility="invisible"
+            android:textColor="#B57F61"
+            android:textSize="70sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/appSubtitleID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="220dp"
+            android:layout_marginBottom="50dp"
+            android:text="Second Hand University Books"
+            android:visibility="invisible"
+            android:textColor="#B57F61"
+            android:textSize="23sp"
+            android:textStyle="italic|bold">
+
+        </TextView>
+    </RelativeLayout>
+
+ <ProgressBar
+     android:id="@+id/progressBarID"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     style="?android:attr/progressBarStyleHorizontal"
+     android:padding="25sp"
+     android:max="85"
+     android:indeterminate="false"
+     android:progress="0"
+     android:progressTint="#BD4E2A"/>
+
+</LinearLayout>

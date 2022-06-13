@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Login -->
+    <string name="email">Email</string>
+    <string name="password">Şifre</string>
+    <string name="loginError">Lütfen boşlukları doldurun.</string>
+    <string name="forRegister">Bir hesabınız yok mu? Kaydolun</string>
+    <string name="login">Giriş</string>
+    <string name="languageSelection">TR</string>
+    <!--Signup -->
+    <string name="registerTitle">Kaydol</string>
+    <string name="nameSurname">Ad Soyad</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="repeatPassword">Şifreyi tekrar giriniz</string>
+    <string name="acceptPrivacy">Şartlar ve koşullar ile gizlilik politikasını kabul ediyorum</string>
+    <string name="signup">ÜYE OL</string>
+    <string name="success">Kayıt başarılı.</string>
+    <string name="empty">Boş alanları doldurunuz.</string>
+    <string name="passwords">Şifreler eşleşmemektedir.</string>
+
+
+    <!--Navigation Drawer -->
+    <string name="myAccount">Hesabım</string>
+    <string name="mybooks">Kitaplarım</string>
+    <string name="myOrders">Siparişlerim</string>
+    <string name="other">Diğer</string>
+    <string name="aboutUs">Hakkımızda</string>
+    <string name="privacyPolicy">Gizlilik Politikası</string>
+    <string name="logout">Çıkış</string>
+
+    <!--About Us -->
+    <string name="text">Bugün üniversiteye yeni başlayan öğrenciler, bazen öğretim elemanlarının kullanmak istediği kitapların aynı baskılarını bulmakta zorlanmaktadır. Bu sorunu çözmek için bu uygulamayı oluşturduk. Bu uygulama ile bulamadığınız üniversite kitaplarını bulabilir ve satın alabilirsiniz. </string>
+
+    <!--Privacy Policy -->
+    <string name="textPrivacy">IP adresiniz ve kullanıcı aracısı bilgileriniz yalnızca analitik için kullanılır ve çerezler vb. teknolojiler, otomatik veya otomatik olmayan yöntemlerle işlenir ve bazen analitik sağlayıcılar gibi üçüncü taraflardan elde edilir, reklam ağları, arama bilgi sağlayıcıları, teknoloji sağlayıcıları, kayıt altına alma, saklama ve güncelleme, hizmet ve aramızdaki sözleşme ilişkisi çerçevesinde ve süresi içinde, meşru menfaat işleme şartı temelinde. Sadece analiz ederek bizimle paylaştığınız kişisel verileriniz; sunduğumuz hizmetlerin gereklerini en iyi şekilde yerine getirmek, bu hizmetlere sizin tarafınızdan erişilebilmesini ve bunlardan maksimum düzeyde faydalanılmasını sağlamak, hizmetlerimizi ihtiyaçlarınız doğrultusunda geliştirmek ve sizleri daha geniş hizmetle buluşturmak. sağlayıcılar, yasal çerçeveler dahilinde, sözleşme ve hizmet süresi boyunca amacına uygun ve ölçülü bir şekilde işlenecek ve güncellenecektir. Bizimle paylaştığınız kişisel verileriniz; Faaliyetlerimizi yürütmek için hizmet aldığımız ve/veya hizmet verdiğimiz, sözleşme ilişkisi içinde olduğumuz, işbirliği içinde olduğumuz yurtiçi ve yurtdışındaki üçüncü kişi, kurum ve kuruluşlar ile adli ve idari mercilere devredilebilir. talep, gerekli teknik ve idari tedbirlerin alınması şartıyla.</string>
+    <string name="infoPrivacy">Daha detaylı bilgiye ulaşmak istiyorsanız Yardım Sayfamıza bakabilirsiniz veya bize mail atabilirsiniz.</string>
+
+    <!--Home-->
+    <string name="home">Ana Sayfa</string>
+    <string name="addBook">Kitap Ekle</string>
+    <string name="basket">Sepetim</string>
+
+    <!--My Account-->
+    <string name="namesurname">Ad Soyad:</string>
+    <string name="userName">Kullanıcı Adı:</string>
+    <string name="eMail">Email:</string>
+    <string name="price">Sepet Fiyatı:</string>
+    <string name="buy">Satın Al</string>
+    <string name="updateInfo">Hesap Bilgilerinizi Güncelleyin</string>
+    <string name="updateButton">GÜNCELLE</string>
+
+
+    <!--Book Detail-->
+    <string name="bookName">Kitap Adı:</string>
+    <string name="bookAuthor">Yazar Adı:</string>
+    <string name="bookUniversity">Üniversite:</string>
+    <string name="bookUsability">Kullanım:</string>
+    <string name="bookPrice">Fiyat:</string>
+
+    <!--Basket-->
+    <string name="message">Siparişinizi aldık. </string>
+    <string name="messageTwo">En yakın sürede elinize ulaşacaktır.</string>
+    <string name="time">Sipariş bilgileriniz alınmıştır\t</string>
+    <string name="basketToast">Sepetiniz onaylandı. Bizi seçtiğiniz için teşekkür ederiz.</string>
+    <string name="addedBasket">Sepetinize eklendi.</string>
+
+
+    <!--Help-->
+    <string name="help">Yardım</string>
+    <string name="helpTitle">Sıkça Sorulan Sorular</string>
+    <string name="questionOne">- Siparişim ne zaman gelecek?</string>
+    <string name="questionAnswerOne">+ Siparişinizi verdikten sonra 1-3 iş günü içerisinde adresinize ulaşacaktır.</string>
+    <string name="questionSecond">- İade süreci var mı?</string>
+    <string name="questionAnswerSecond">+ Maalesef iade işlemleri sistemimizde mevcut değildir.</string>
+    <string name="questionThird">- Kargo ücreti var mı?</string>
+    <string name="questionAnswerThird">+ Kargo ücreti yoktur.</string>
+    <string name="questionFourth">- Size nasıl ulaşabilirim?</string>
+    <string name="questionAnswerFourth">+ uniboo.help@uniboo.com adresine mail göndererek bize istediğiniz zaman ulaşabilirsiniz.</string>
+
+</resources>

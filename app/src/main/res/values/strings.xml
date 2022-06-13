@@ -1,0 +1,91 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="MissingTranslation">Uniboo</string>
+
+    <string name="openDrawer" tools:ignore="MissingTranslation">Open </string>
+    <string name="closeDrawer" tools:ignore="MissingTranslation">Close </string>
+    <string name="hello_blank_fragment" tools:ignore="MissingTranslation">Hello blank fragment</string>
+    <!--Login -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="loginError">Please fill in the blanks.</string>
+    <string name="forRegister">Do not have an account? Register</string>
+    <string name="login">Login</string>
+    <string name="language" translatable="false">Turkish</string>
+
+
+
+    <!--Signup -->
+    <string name="registerTitle">Register</string>
+    <string name="nameSurname">Name Surname</string>
+    <string name="username">Username</string>
+    <string name="repeatPassword">Repeat Password</string>
+    <string name="acceptPrivacy">I agree to the terms and conditions and the privacy policy</string>
+    <string name="signup">SIGN UP</string>
+    <string name="success"> Registration Successful.</string>
+    <string name="empty">Enter empty fields.</string>
+    <string name="passwords">Passwords do not match.</string>
+
+
+
+    <!--Navigation Drawer -->
+    <string name="myAccount">My Account</string>
+    <string name="mybooks">My Books</string>
+    <string name="myOrders">My Orders</string>
+    <string name="other">Other</string>
+    <string name="aboutUs">About Us</string>
+    <string name="privacyPolicy">Privacy Policy</string>
+    <string name="logout">Logout</string>
+
+    <!--About Us -->
+    <string name="text">Today, students who are new to university sometimes have difficulty in finding the same editions of the books that their lecturers want to be used. \n\nWe created this application to solve this problem.With this application, you can find and buy university books that you cannot find.</string>
+
+    <!--Privacy Policy -->
+    <string name="textPrivacy">Your IP address and user agent information are only used for analytics and cookies etc. will be processed by means of technologies, automatic or non-automatic methods and sometimes obtained from third parties such as analytical providers, ad networks, search information providers, technology providers, recorded, stored and updated, within the framework and duration of the service and contractual relationship between us, on the basis of the legitimate interest processing condition. Your personal data that you share with us only by analyzing; to fulfill the requirements of the services we offer in the best way, to ensure that these services can be accessed by you and benefited from them at the maximum level, to develop our services in line with your needs and to bring you together with wider service providers within legal frameworks, It will be processed and updated in accordance with its purpose and in a measured manner during the contract and service period.Your personal data that you share with us; It can be transferred to third parties, institutions and organizations at home and abroad, with which we receive and/or provide services to carry out our activities, with whom we have contractual relations, with whom we cooperate, and to judicial and administrative authorities upon request, provided that necessary technical and administrative measures are taken.</string>
+    <string name="infoPrivacy">If you want to get more detailed information,you can check out our Help Page or you can send us an e-mail.</string>
+
+    <!--Home-->
+    <string name="home">Home</string>
+    <string name="addBook">Add Book</string>
+    <string name="basket">Basket</string>
+
+    <!--My Account-->
+    <string name="namesurname">Name Surname:</string>
+    <string name="userName">Username:</string>
+    <string name="eMail">Email:</string>
+    <string name="updateInfo">Update Your Account Information</string>
+    <string name="updateButton">UPDATE</string>
+
+
+    <!--Book Detail-->
+    <string name="bookName">Book Name:</string>
+    <string name="bookAuthor">Author Name:</string>
+    <string name="bookUniversity">University:</string>
+    <string name="bookUsability">Usability:</string>
+    <string name="bookPrice">Price:</string>
+
+
+    <!--Basket-->
+    <string name="price">Basket Price:</string>
+    <string name="buy">Buy</string>
+    <string name="message">We have received your order.</string>
+    <string name="messageTwo">It will reach you as soon as possible</string>
+    <string name="time">Your order has been recieved on\t</string>
+    <string name="basketToast">Your basket has been confirmed. Thank you for choosing us</string>
+    <string name="addedBasket">Added to your basket.</string>
+
+
+    <!--Help-->
+    <string name="help">Help</string>
+    <string name="helpTitle">Frequently Asked Questions</string>
+    <string name="questionOne">- When will my order arrive?</string>
+    <string name="questionAnswerOne">+ It will arrive at your address within 1-3 business days after you place your order.</string>
+    <string name="questionSecond">- Is there a return process?</string>
+    <string name="questionAnswerSecond">+ Unfortunately, return procedures are not available in our system.</string>
+    <string name="questionThird">- Is there a shipping fee?</string>
+    <string name="questionAnswerThird">+ There is no shipping fee.</string>
+    <string name="questionFourth">- How can I reach you?</string>
+    <string name="questionAnswerFourth">+ You can reach us at any time buy sending an e-mail to uniboo.help@uniboo.com. </string>
+
+
+
+</resources>

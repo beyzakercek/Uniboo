@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "940938764693",
+    "project_id": "uniboo-85ce2",
+    "storage_bucket": "uniboo-85ce2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940938764693:android:11c489bd32d24cd8c1169c",
+        "android_client_info": {
+          "package_name": "com.example.uniboo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940938764693-lqh8is6lc96p6ndl67vcem2g20lpjgvu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsih6YCMDHDqrOM-8aTJrV_nunAzTcuQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940938764693-lqh8is6lc96p6ndl67vcem2g20lpjgvu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

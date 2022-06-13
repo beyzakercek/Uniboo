@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardView"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="214dp"
+        android:layout_height="413dp"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="163dp"
+            android:layout_height="154dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/addToBasketID"
+            android:layout_width="39dp"
+            android:layout_height="41dp"
+            android:layout_below="@+id/image"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="196dp"
+            android:layout_marginEnd="17dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_baseline_add_box_24" />
+
+        <TextView
+            android:id="@+id/nameID"
+            android:layout_width="163dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/image"
+            android:layout_alignEnd="@+id/image"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="0dp"
+            android:text="Text"
+            android:textSize="15sp"></TextView>
+
+        <TextView
+            android:id="@+id/authorID"
+            android:layout_width="163dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/image"
+            android:layout_alignStart="@+id/image"
+            android:layout_alignEnd="@+id/image"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="104dp"
+            android:layout_marginEnd="0dp"
+            android:text="Text"
+            android:textSize="15sp"></TextView>
+
+        <TextView
+            android:id="@+id/priceID"
+            android:layout_width="80dp"
+            android:layout_height="33dp"
+            android:layout_below="@+id/image"
+            android:layout_alignStart="@+id/image"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="198dp"
+            android:layout_marginEnd="0dp"
+            android:text="Text"
+            android:textSize="15sp"></TextView>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
